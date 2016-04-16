@@ -14,7 +14,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		doc\readme.txt = doc\readme.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{C8D78604-EB5D-43A5-8F8E-6DBDE8EC9643}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8D78604-EB5D-43A5-8F8E-6DBDE8EC9643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D78604-EB5D-43A5-8F8E-6DBDE8EC9643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D78604-EB5D-43A5-8F8E-6DBDE8EC9643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D78604-EB5D-43A5-8F8E-6DBDE8EC9643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

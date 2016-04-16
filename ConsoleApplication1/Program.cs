@@ -12,9 +12,11 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             // TODO: 123
+            // Lisa: lisa
             var person = new Person();
             person.Id = 46;
             person.Name = "Lisa";
+
         }
     }
 }

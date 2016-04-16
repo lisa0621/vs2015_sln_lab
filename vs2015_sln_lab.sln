@@ -16,7 +16,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{C8D78604-EB5D-43A5-8F8E-6DBDE8EC9643}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedClasses", "SharedClasses\SharedClasses.shproj", "{D8575C1A-E149-4D0F-A7F0-8FFBC8C3AA42}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedClasses\SharedClasses.projitems*{d8575c1a-e149-4d0f-a7f0-8ffbc8c3aa42}*SharedItemsImports = 13
+		SharedClasses\SharedClasses.projitems*{c8d78604-eb5d-43a5-8f8e-6dbde8ec9643}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

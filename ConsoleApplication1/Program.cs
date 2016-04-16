@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SharedClasses;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            var person = new Person();
+            person.Id = 46;
+            person.Name = "Lisa";
         }
     }
 }
